@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StarPattern {
     public static void printPattern(int n) {
         int i, j;
@@ -22,7 +24,8 @@ public class StarPattern {
     }
     public static void main(String args[])
     {
-        int n = 6;
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
         printPattern(n);
     }
 }
